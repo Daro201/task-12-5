@@ -1,57 +1,13 @@
-body {
-  padding: 0;
-  color: white;
-  background-color: #53B2FF;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-}
+body { padding: 0; color: white; background-color: #53B2FF; margin: 0 auto; text-align: center; font-family: 'Playfair Display', serif; }
 
-body h1 {
-  padding: 50px 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 43px;
-}
+body h1 { padding: 50px 0; font-family: 'Roboto', sans-serif; font-size: 43px; }
 
-body h2, body h3 {
-  color: white;
-}
+body h2, body h3 { color: white; }
 
-body .link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  text-align: center;
-}
+body .link { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; margin: 0 auto; text-align: center; }
 
-body .link button {
-  background-color: #53B2FF;
-  border: solid white 1px;
-  color: white;
-  width: 400px;
-  min-width: 200px;
-  height: 35px;
-  display: block;
-  margin: 50px 0;
-  border-radius: 10px;
-  font-size: 18px;
-  font-family: 'Playfair Display', serif;
-}
+body .link button { background-color: #53B2FF; border: solid white 1px; color: white; width: 400px; height: 35px; display: block; margin: 50px 0; border-radius: 10px; font-size: 18px; font-family: 'Playfair Display', serif; }
 
-body .link button:hover {
-  cursor: pointer;
-}
+body .link button:hover { cursor: pointer; }
 
-body .link .tweet {
-  text-decoration: none;
-  border: solid white 1px;
-  color: white;
-  width: 400px;
-  height: 30px;
-  display: block;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-/*# sourceMappingURL=style.css.map */
+body .link .tweet { text-decoration: none; border: solid white 1px; color: white; width: 400px; height: 30px; display: block; border-radius: 10px; font-size: 18px; }
